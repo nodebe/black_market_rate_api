@@ -31,6 +31,17 @@ uvicorn main:app
 
 Use a GET request to call `http://127.0.0.1:8000/get_rates`
 
+## Expected Response
+
+Response is a json data
+
+{
+    "data": {
+        "black_market": 740.0,
+        "cbn": 440.0
+    }
+}
+
 
 ## Contributing
 
